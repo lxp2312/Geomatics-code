@@ -14,7 +14,7 @@ namespace 大地坐标系转空间直角坐标系
         static void Main(string[] args)
         {
             //定义变量
-            double B, L, H, a, b, e1, e2, N, X, Y, Z;
+            double B, L, H, a, f, e1, N, X, Y, Z;
             //输入参数
             Console.WriteLine("请输入大地纬度B：");
             B = double.Parse(Console.ReadLine());
@@ -24,9 +24,8 @@ namespace 大地坐标系转空间直角坐标系
             H = double.Parse(Console.ReadLine());
             //定义参数
             a = 6378137;
-            b = 6356752.3142;
-            e1 = Math.Sqrt((Math.Pow(a, 2) - Math.Pow(b, 2)) / Math.Pow(a, 2));
-            e2 = Math.Sqrt((Math.Pow(a, 2) - Math.Pow(b, 2)) / Math.Pow(b, 2));
+            f = 1 / 298.257222101;
+            e1 = Math.Sqrt(2 * f - Math.Pow(f, 2));
             //计算
             B = B * Math.PI / 180;
             L = L * Math.PI / 180;
