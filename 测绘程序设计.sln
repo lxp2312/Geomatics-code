@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "数组", "数组\数组.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "计算面积", "计算面积\计算面积.csproj", "{2880AF6A-9F97-460E-AFAD-E2C76F0100F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "矩阵运算", "矩阵运算\矩阵运算.csproj", "{3ACB9C4B-CD7A-4DD8-9476-F2579D4DA02A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "矩阵运算", "矩阵运算\矩阵运算.csproj", "{3ACB9C4B-CD7A-4DD8-9476-F2579D4DA02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "大地坐标系转空间坐标系", "大地坐标系转空间坐标系\大地坐标系转空间坐标系.csproj", "{91453BF4-06C9-40E3-A23A-DDE3C7F4D773}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3ACB9C4B-CD7A-4DD8-9476-F2579D4DA02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ACB9C4B-CD7A-4DD8-9476-F2579D4DA02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ACB9C4B-CD7A-4DD8-9476-F2579D4DA02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91453BF4-06C9-40E3-A23A-DDE3C7F4D773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91453BF4-06C9-40E3-A23A-DDE3C7F4D773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91453BF4-06C9-40E3-A23A-DDE3C7F4D773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91453BF4-06C9-40E3-A23A-DDE3C7F4D773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
